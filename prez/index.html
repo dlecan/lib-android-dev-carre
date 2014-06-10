@@ -8,13 +8,118 @@
   <link rel="stylesheet" href="bower_components/highlightjs/styles/tomorrow.css" />
   <link rel="stylesheet" href="bower_components/ruban/css/ruban.min.css" />
   <link rel="stylesheet" href="bower_components/ruban/css/ruban-print.min.css" media="print" />
+  <style>
+    img.fit {
+      max-width: 95%;
+      max-height: 95%;
+    }
+
+    #damien-lecan aside {
+      position: absolute;
+      right: 1em;
+    }
+
+    aside img {
+      width: 4em;
+    }
+
+    footer img {
+      width: 4em;
+    }
+    
+    footer.rubanpowered {
+      position: absolute;
+      bottom: 0.6em;
+      left: 1em;
+      font-size: 50%;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    #titre h1 {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 2em;
+    }
+  </style>
 </head>
 
 <body>
   <section id="titre">
     <h1>Des libs Android pour un dev "carré"</h1>
+
+    <footer class="rubanpowered">
+      <a href="http://loicfrering.github.io/ruban/">Propulsé par Ruban</a>
+    </footer>
   </section>
 
+  <section id="damien-lecan" class="no-toc">
+    <h1>Damien Lecan</h1>
+    <aside>
+        <img src="images/damien_lecan.jpg">
+    </aside>
+    <ul>
+      <li>Développeur depuis 1998</li>
+      <li><i class="fa fa-heart fa-2x"></i> Web</li>
+    </ul>
+
+    <aside>
+        <img src="images/logo_sqli.com.png">
+    </aside>
+
+    <ul>
+      <li><i class="fa fa-map-marker"></i> Nantes, France</li>
+      <li><i class="fa fa-building"></i> <a href="http://www.sqli.com" title="SQLI">SQLI Group</a></li>
+      <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/dlecan" title="@dlecan sur Twitter">@dlecan</a></li>
+      <li><i class="fa fa-github"></i> <a href="https://github.com/dlecan" title="dlecan sur GitHub">github.com/dlecan</a></li>
+    </ul>
+  </section>
+  
+  <section id="square">
+    
+    <p class="text-center"><img class="fit" src="images/paiement.jpg"></p>
+    
+  </section>
+  
+  <section id="square-picasso">
+  
+    <p class="text-center"><img src="images/picasso.png" class="fit"></p>
+    
+  </section>
+
+  <section id="square-dagger">
+    
+    <p class="text-center"><img src="images/dagger.png" class="fit"></p>
+    
+  </section>
+  
+  <section id="square-retrofit">
+  
+    <p class="text-center"><img src="images/retrofit.png" class="fit"></p>
+    
+  </section>
+
+  <section id="autres-libs-a-explorer">
+    
+    <h1>Autres libs à explorer</h1>
+  
+    <ul>
+      <li><strong><a href="http://square.github.io/okhttp/">OkHttp</a></strong> - HTTP, SPDY, pools de connexions ...</li>
+      <li><strong><a href="http://square.github.io/tape/">Tape</a></strong> - "Queues" évoluées : transactions ...</li>
+      <li><strong><a href="http://square.github.io/spoon/">Spoon</a></strong> - Tests distribués et simultanés sur plusieurs terminaux</li>
+      <li><strong><a href="https://github.com/square/seismic">Seismic</a></strong>, <strong><a href="https://github.com/square/wire">Wire</a></strong>, <strong><a href="http://square.github.io/otto/">Otto</a></strong>, ...</li>
+    </ul>
+  </section>
+  
+  <section id="questions">
+  
+    <p class="text-center"><i class="fa fa-question-circle fa-5x"></i></p>
+  
+  </section>
+		
   <script src="bower_components/jquery/jquery.min.js"></script>
   <script src="bower_components/keymaster/keymaster.js"></script>
   <script src="bower_components/hammerjs/hammer.min.js"></script>
