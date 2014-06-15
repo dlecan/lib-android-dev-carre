@@ -1,0 +1,1 @@
+GET     /api/meteo                  controllers.Application.meteo
